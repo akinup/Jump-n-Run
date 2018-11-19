@@ -10,6 +10,7 @@ public class CameraController : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+        Debug.Log(transform.name + " is spwaned and follows " + player.name + ".");
         offset.z = transform.position.z - player.transform.position.z;
     }
 

@@ -8,6 +8,12 @@ public class PlayerController : PhysicsObject
     public float maxSpeed = 7;
     public float jumpTakeOffSpeed = 7;
 
+    void Start()
+    {
+        Debug.Log(transform.name + " is spwaned at: " + transform.position);
+        Debug.Log(transform.name + " can be contolled with left/right + space!");
+    }
+
     protected override void ComputeVelocity()
     {
         Vector2 move = Vector2.zero;

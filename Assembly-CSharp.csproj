@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{91F83767-FF96-B124-CEC9-E218E94AB2A8}</ProjectGuid>
+    <ProjectGuid>{A0E3C15B-81B4-7830-DC2D-67B41C9C3B97}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -65,19 +65,18 @@
     <Compile Include="Assets\Scripts\Camera\DeadzoneCamera.cs" />
     <Compile Include="Assets\Scripts\Camera\PerfectPixel.cs" />
     <Compile Include="Assets\Scripts\GameLogic\PhysicsObject.cs" />
-    <Compile Include="Assets\Scripts\Others\Controller.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>D:/Unity/Jump 'n' Run/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>D:/Unity/Jump-n-Run/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/Unity/Jump 'n' Run/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>D:/Unity/Jump-n-Run/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>D:/Unity/Jump 'n' Run/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>D:/Unity/Jump-n-Run/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/Unity/Jump 'n' Run/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>D:/Unity/Jump-n-Run/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>D:/Software/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

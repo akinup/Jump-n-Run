@@ -23,6 +23,7 @@ public class PhysicsObject : MonoBehaviour
     void OnEnable()
     {
         rb2d = GetComponent<Rigidbody2D>();
+        Debug.Log(transform.name + " is active and has gravitation");
     }
 
     void Update()
@@ -72,7 +73,6 @@ public class PhysicsObject : MonoBehaviour
             for (int i = 0; i < hitBufferList.Count; i++)
             {
                 Vector2 currentNormal = hitBufferList[i].normal;
-                Debug.Log(currentNormal.y);
                 if (currentNormal.y > minGroundNormalY)
                 {
                     grounded = true;

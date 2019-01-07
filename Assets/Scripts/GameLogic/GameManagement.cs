@@ -8,13 +8,12 @@ public class GameManagement : MonoBehaviour {
     public GameObject startPoint;
 
 	// Use this for initialization
-	void Start () {
-
+	void Awake () {
         Instantiate(playerPrefab, startPoint.transform.position, Quaternion.identity);
     }
-	
+
 	// Update is called once per frame
 	void Update () {
-		
+
 	}
 }
